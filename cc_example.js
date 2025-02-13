@@ -60,3 +60,21 @@ function findEmployee(employee,name){
 
 }
 
+
+//Task 8
+let orders1 = [
+    { id: 1, customer: "Alice"},
+    { id: 2, customer: "Bob" },
+];
+
+letorderB = [
+    { id: 3, customer: "Charlie" },
+    { id: 4, customer: "David" },
+
+];
+
+function combineOrders(order1, order2) {
+    return {...order1, ...order2}
+}
+
+console.log(combineOrders(ordersA, ordersB));
