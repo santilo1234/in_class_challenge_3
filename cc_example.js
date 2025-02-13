@@ -29,13 +29,35 @@ let inventory = {
     }
 };
 
-inventory.addItem("Monitor", 10);
-inventory.addItem("Keyboard", 5);
+inventory.addItem("Monitor", 5); 
+inventory.addItem("Keyboard", 10);
 inventory.addItem("Mouse", 3);
+
 console.log(inventory.items);
 inventory.removeLatestItem();
 console.log(inventory.items);
-inventory.removeFirstItem();
-console.log(inventory.items);
+// console.log(inventory.items);
+// inventory.removeLatestItem();
+// console.log(inventory.items);
+// inventory.removeFirstItem();
+// console.log(inventory.items);
 
+
+
+//Task 7 
+
+let employee = [
+    {name: "Alice", position: "Developer", salary: 70000},
+    {name: "Bob", position: "Designer", salary: 60000},
+    {name: "Charlie", position: "Developer", salary: 90000},
+
+];
+
+function findEmployee(employee,name){
+    return employee.find(employee => employee.name === name);
+
+    some_employee = findEmployee(employee, "Alice");
+    console.log(some_employee);
+
+}
 
