@@ -38,3 +38,4 @@ console.log(inventory.items);
 inventory.removeFirstItem();
 console.log(inventory.items);
 
+
