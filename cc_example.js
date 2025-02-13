@@ -56,8 +56,7 @@ let employee = [
 function findEmployee(employee,name){
     return employee.find(employee => employee.name === name);
 
-    some_employee = findEmployee(employee, "Alice");
-    console.log(some_employee);
+    console.log(findEmployee(employee, "Charlie"));
 
 }
 
